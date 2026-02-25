@@ -11,3 +11,6 @@ jobs:
     steps:
       - name: Ping Salez Girl
         run: curl --max-time 120 https://salez-girl.onrender.com/
+
+      - name: Ping Andy Alert
+        run: curl --max-time 120 https://andy-alert.onrender.com/
